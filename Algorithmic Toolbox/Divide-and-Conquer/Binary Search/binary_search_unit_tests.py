@@ -6,8 +6,7 @@ class TestBinarySearch(unittest.TestCase):
     def test_small(self):
         for (keys, query) in [
             ([1, 2, 3], 1),
-            ([4, 5, 6], 7),
-            type here
+            ([4, 5, 6], 7)
         ]:
             self.assertEqual(
                 linear_search(keys, query),

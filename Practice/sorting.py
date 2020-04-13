@@ -114,24 +114,31 @@ def partition(alist, first, last):
     pivot = alist[first]
     start = first
     end = last
-
+    print(start, end, pivot, alist)
     while (start < end):
 
-        while(alist[start] <= pivot):
+
+        while(start <= last and alist[start] <= pivot):
+            #print("   alist[start]= ", alist[start])
+            #print( "   pivot = {}".format(pivot))
             start = start +1
-        while(alist[end] > pivot ):
+            #print("   start = ",start)
+        while(end >= first and alist[end] > pivot):
             end = end -1
+            #print("second loop")
+        print("     value of start and end = ", (start,end))
         if(start < end):
             tmp = alist[end]
             alist[end] = alist[start]
             alist[start] = tmp
-
+    print("out of the loop and array = ",alist)
     tmp = alist[end]
     alist[end] = alist[first]
     alist[first] = tmp
-
+    print("out of the loop and swapping after = ", alist)
+    print("\n")
     return end
 
-alist = [54,26,93,17,77,31,44,55,20]
-quickSort   (alist)
+alist = [2,3,9,2,9]
+print(quickSort(alist))
 print(alist)
