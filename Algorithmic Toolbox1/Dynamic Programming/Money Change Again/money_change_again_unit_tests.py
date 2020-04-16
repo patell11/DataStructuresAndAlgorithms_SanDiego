@@ -8,7 +8,7 @@ class MoneyChangeAgain(unittest.TestCase):
             self.assertEqual(change(money), change_naive(money))
 
     def test_large(self):
-        for money, answer in ((200, 50), (239, 60), type here):
+        for money, answer in ((200, 50), (239, 60), ):
             self.assertEqual(change(money), answer)
 
 

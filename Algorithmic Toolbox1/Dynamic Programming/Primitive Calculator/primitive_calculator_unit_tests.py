@@ -4,7 +4,7 @@ from primitive_calculator import compute_operations
 
 class PrimitiveCalculator(unittest.TestCase):
     def test(self):
-        for n, answer in ((2, 1), (3, 1), (5, 3), type here):
+        for n, answer in ((2, 1), (3, 1), (5, 3),(10,3), (96234,14) ):
             sequence = compute_operations(n)
             self.assertEqual(answer, len(sequence) - 1)
             self.assertEqual(sequence[0], 1)

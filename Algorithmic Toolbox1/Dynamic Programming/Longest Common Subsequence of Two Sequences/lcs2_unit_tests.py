@@ -12,7 +12,10 @@ class LCS2(unittest.TestCase):
             ((2, 7, 5), (2, 5), 2),
             ((7, ), (1, 2, 3, 4), 0),
             ((2, 7, 8, 3), (5, 2, 8, 7), 2),
-            type here
+            ((1,2,3), (3,2,1) ,1),
+            ((7,),(1,2,3,4),0),
+            ((1,2,3,4), (10,), 0)
+
         ):
             self.assertEqual(lcs2(first_sequence, second_sequence), answer)
 

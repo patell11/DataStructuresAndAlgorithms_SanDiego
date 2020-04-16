@@ -45,14 +45,14 @@ files:
 - name: lcs2_unit_tests.py
   visible: true
   placeholders:
-  - offset: 426
-    length: 9
+  - offset: 515
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 426
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -80,14 +80,14 @@ files:
 - name: lcs2.py
   visible: true
   placeholders:
-  - offset: 137
-    length: 9
+  - offset: 385
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 137
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
