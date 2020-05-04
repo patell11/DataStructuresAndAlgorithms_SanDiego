@@ -1,5 +1,6 @@
 import unittest
-from partition_souvenirs import partition3
+from partition_souvenirs import partitions3
+from partition import findPartion
 
 
 class PartitionSouvenirs(unittest.TestCase):
@@ -9,9 +10,9 @@ class PartitionSouvenirs(unittest.TestCase):
             ((7, 7, 7), 1),
             ((3, 3, 3), 1),
             ((3, 3, 3, 3), 0),
-            type here
+
         ):
-            self.assertEqual(partition3(values), answer)
+            self.assertEqual(findPartion(values), answer)
 
 
 if __name__ == '__main__':

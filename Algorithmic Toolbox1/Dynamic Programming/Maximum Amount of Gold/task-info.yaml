@@ -34,14 +34,14 @@ files:
 - name: maximum_gold.py
   visible: true
   placeholders:
-  - offset: 204
-    length: 9
+  - offset: 200
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 204
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -66,14 +66,14 @@ files:
 - name: maximum_gold_unit_tests.py
   visible: true
   placeholders:
-  - offset: 278
-    length: 9
+  - offset: 266
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 278
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest

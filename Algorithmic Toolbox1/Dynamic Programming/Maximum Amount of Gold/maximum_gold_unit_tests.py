@@ -8,7 +8,7 @@ class MaximumGold(unittest.TestCase):
             (10, (1, 4, 8), 9),
             (20, (5, 7, 12, 18), 19),
             (10, (3, 5, 3, 3, 5), 10),
-            type here
+
         ):
             self.assertEqual(maximum_gold(capacity, weights), answer)
 

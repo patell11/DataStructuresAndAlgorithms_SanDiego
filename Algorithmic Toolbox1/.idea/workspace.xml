@@ -2,33 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa44d1dc-6348-4745-a1a9-7eb6e6fbcbd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithmic Toolbox1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithmic Toolbox1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/edit_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/edit_distance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/edit_distance_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/edit_distance_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Edit Distance/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/money_change_again.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/money_change_again.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/money_change_again_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/money_change_again_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Money Change Again/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/primitive_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/primitive_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/primitive_calculator_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/primitive_calculator_unit_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Primitive Calculator/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1aNyuRh88rk56amOHKWZL0c0MlI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,9 +38,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in lcs3_unit_tests.py">
-    <configuration name="lcs2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.partition">
+    <configuration name="partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -47,11 +49,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,69 +62,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for edit_distance_unit_tests.EditDistance.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="partition_souvenirs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithmic Toolbox1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for partition_souvenirs_unit_tests.PartitionSouvenirs.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Edit Distance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;edit_distance_unit_tests.EditDistance.test&quot;" />
+      <option name="_new_target" value="&quot;partition_souvenirs_unit_tests.PartitionSouvenirs.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lcs2_unit_tests.LCS2.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in maximum_gold_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lcs2_unit_tests.LCS2.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in lcs2_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Algorithmic Toolbox1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2_unit_tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in lcs3_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in partition_souvenirs_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3_unit_tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in lcs3_unit_tests.py" />
-        <item itemvalue="Python tests.Unittests for lcs2_unit_tests.LCS2.test" />
-        <item itemvalue="Python tests.Unittests in lcs2_unit_tests.py" />
-        <item itemvalue="Python.lcs2" />
-        <item itemvalue="Python tests.Unittests for edit_distance_unit_tests.EditDistance.test" />
+        <item itemvalue="Python.partition" />
+        <item itemvalue="Python.partition_souvenirs" />
+        <item itemvalue="Python tests.Unittests for partition_souvenirs_unit_tests.PartitionSouvenirs.test" />
+        <item itemvalue="Python tests.Unittests in partition_souvenirs_unit_tests.py" />
+        <item itemvalue="Python tests.Unittests in maximum_gold_unit_tests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -140,21 +149,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1587009024370">
-      <screen x="0" y="0" width="1440" height="826" />
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1588442050473">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.826@0.0.1440.826" timestamp="1587009024370" />
-    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1587009024367">
-      <screen x="0" y="0" width="1440" height="826" />
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1588442050473" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.826@0.0.1440.826" timestamp="1588097657209" />
+    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1588442050469">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.826@0.0.1440.826" timestamp="1587009024367" />
-    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1587009024365">
-      <screen x="0" y="0" width="1440" height="826" />
+    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1588442050469" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.826@0.0.1440.826" timestamp="1588097657206" />
+    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1588442050467">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.826@0.0.1440.826" timestamp="1587009024365" />
-    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1587009024368">
-      <screen x="0" y="0" width="1440" height="826" />
+    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1588442050467" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.826@0.0.1440.826" timestamp="1588097657205" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1588442050471">
+      <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.826@0.0.1440.826" timestamp="1587009024368" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1588442050471" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.826@0.0.1440.826" timestamp="1588097657208" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588299593587">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.820@0.0.1440.820" timestamp="1588299593587" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588299593584">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.820@0.0.1440.820" timestamp="1588299593584" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588299593583">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.820@0.0.1440.820" timestamp="1588299593583" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588299593585">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.820@0.0.1440.820" timestamp="1588299593585" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1588354433439">
+      <screen x="0" y="0" width="1440" height="820" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.820@0.0.1440.820" timestamp="1588354433439" />
   </component>
 </project>

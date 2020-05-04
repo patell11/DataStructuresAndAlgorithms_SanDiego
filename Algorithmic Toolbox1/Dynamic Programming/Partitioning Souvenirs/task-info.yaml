@@ -38,14 +38,14 @@ files:
 - name: partition_souvenirs_unit_tests.py
   visible: true
   placeholders:
-  - offset: 282
-    length: 9
+  - offset: 305
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 282
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -70,14 +70,14 @@ files:
 - name: partition_souvenirs.py
   visible: true
   placeholders:
-  - offset: 173
-    length: 9
+  - offset: 245
+    length: 1
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 173
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -98,6 +98,9 @@ files:
         assert input_n == len(input_values)
         print(partition3(input_values))
   learner_created: false
+- name: partition.py
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
 status: Unchecked
 record: -1
