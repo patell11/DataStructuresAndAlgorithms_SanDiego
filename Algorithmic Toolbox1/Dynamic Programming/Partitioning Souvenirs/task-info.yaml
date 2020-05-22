@@ -42,8 +42,8 @@ files:
     length: 0
     placeholder_text: type here
     initial_state:
-      length: 9
-      offset: 282
+      length: 0
+      offset: 305
     initialized_from_dependency: false
     selected: true
     status: Unchecked
@@ -74,8 +74,8 @@ files:
     length: 1
     placeholder_text: type here
     initial_state:
-      length: 9
-      offset: 173
+      length: 1
+      offset: 245
     initialized_from_dependency: false
     selected: true
     status: Unchecked

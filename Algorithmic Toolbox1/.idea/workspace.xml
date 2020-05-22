@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa44d1dc-6348-4745-a1a9-7eb6e6fbcbd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithmic Toolbox1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithmic Toolbox1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/printerSimulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/printerSimulation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +35,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.partition">
-    <configuration name="partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum" />
+      <recent name="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum/tests" />
+      <recent name="$PROJECT_DIR$/week4_binary_search_trees/1_tree_traversals" />
+      <recent name="$PROJECT_DIR$/Hashing/3_hash_substring" />
+      <recent name="$PROJECT_DIR$/Priority Queue/Merging Tables" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.set_range_sum">
+    <configuration name="common_substring_fast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing/5_longest_common_substring" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/5_longest_common_substring/common_substring_fast.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="partition_souvenirs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="matching_with_mismatches" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing/6_matching_with_mismatches" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/6_matching_with_mismatches/matching_with_mismatches.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,55 +90,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for partition_souvenirs_unit_tests.PartitionSouvenirs.test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="matching_with_mismatches_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hashing/6_matching_with_mismatches" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;partition_souvenirs_unit_tests.PartitionSouvenirs.test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hashing/6_matching_with_mismatches/matching_with_mismatches_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in maximum_gold_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="set_range_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum/set_range_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in partition_souvenirs_unit_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="tests_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week4_binary_search_trees/4_set_range_sum/tests_check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.partition" />
-        <item itemvalue="Python.partition_souvenirs" />
-        <item itemvalue="Python tests.Unittests for partition_souvenirs_unit_tests.PartitionSouvenirs.test" />
-        <item itemvalue="Python tests.Unittests in partition_souvenirs_unit_tests.py" />
-        <item itemvalue="Python tests.Unittests in maximum_gold_unit_tests.py" />
+        <item itemvalue="Python.set_range_sum" />
+        <item itemvalue="Python.tests_check" />
+        <item itemvalue="Python.matching_with_mismatches" />
+        <item itemvalue="Python.matching_with_mismatches_v2" />
+        <item itemvalue="Python.common_substring_fast" />
       </list>
     </recent_temporary>
   </component>
@@ -149,42 +177,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1588442050473">
+    <state x="447" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589479541832">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1588442050473" />
+    <state x="447" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.820@0.0.1440.820" timestamp="1589479541832" />
+    <state width="1398" height="167" key="GridCell.Tab.0.bottom" timestamp="1590093005154">
+      <screen x="0" y="0" width="1440" height="823" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1590064020367" />
+    <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.0.1440.823@0.0.1440.823" timestamp="1590093005154" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.826@0.0.1440.826" timestamp="1588097657209" />
-    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1588442050469">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.0.1440.896@0.0.1440.896" timestamp="1589836168923" />
+    <state width="1398" height="167" key="GridCell.Tab.0.center" timestamp="1590093005152">
+      <screen x="0" y="0" width="1440" height="823" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1588442050469" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1590064020365" />
+    <state width="1398" height="167" key="GridCell.Tab.0.center/0.0.1440.823@0.0.1440.823" timestamp="1590093005152" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.826@0.0.1440.826" timestamp="1588097657206" />
-    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1588442050467">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.0.1440.896@0.0.1440.896" timestamp="1589836168921" />
+    <state width="1398" height="167" key="GridCell.Tab.0.left" timestamp="1590093005151">
+      <screen x="0" y="0" width="1440" height="823" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1588442050467" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1590064020364" />
+    <state width="1398" height="167" key="GridCell.Tab.0.left/0.0.1440.823@0.0.1440.823" timestamp="1590093005151" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.826@0.0.1440.826" timestamp="1588097657205" />
-    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1588442050471">
-      <screen x="0" y="0" width="1440" height="820" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.0.1440.896@0.0.1440.896" timestamp="1589836168919" />
+    <state width="1398" height="167" key="GridCell.Tab.0.right" timestamp="1590093005153">
+      <screen x="0" y="0" width="1440" height="823" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1588442050471" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1590064020366" />
+    <state width="1398" height="167" key="GridCell.Tab.0.right/0.0.1440.823@0.0.1440.823" timestamp="1590093005153" />
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.826@0.0.1440.826" timestamp="1588097657208" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588299593587">
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.0.1440.896@0.0.1440.896" timestamp="1589836168922" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589476986062">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.820@0.0.1440.820" timestamp="1588299593587" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588299593584">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.820@0.0.1440.820" timestamp="1589476986062" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589476986060">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.820@0.0.1440.820" timestamp="1588299593584" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588299593583">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.820@0.0.1440.820" timestamp="1589476986060" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589476986059">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.820@0.0.1440.820" timestamp="1588299593583" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588299593585">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.820@0.0.1440.820" timestamp="1589476986059" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589476986061">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.820@0.0.1440.820" timestamp="1588299593585" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.820@0.0.1440.820" timestamp="1589476986061" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1588354433439">
       <screen x="0" y="0" width="1440" height="820" />
     </state>

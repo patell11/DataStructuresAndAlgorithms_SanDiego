@@ -2,74 +2,65 @@ from queue import Queue
 import random
 
 class Printer:
-
-    def __init__(self,ppm):
-        self.pagerate = ppm
+    def __init__(self, ppm):
+        self.remaining_time = 0
+        self.printing_rate = ppm
         self.currentTask = None
-        self.timeRemaining = 0
 
     def tick(self):
-        if self.currentTask != None:
-            self.timeRemaining = self.timeRemaining - 1
-            if self.timeRemaining <= 0:
+        if self.remaining_time != None:
+            self.remaining_time = self.remaining_time - 1
+            if self.remaining_time <= 0:
                 self.currentTask = None
 
-    def busy(self):
-        if self.currentTask != None:
-            return True
-        else:
-            return False
+    def isBusy(self):
+        return self.currentTask
 
-    def startNext(self,newtask):
+    def startNewTask(self, newtask):
         self.currentTask = newtask
-        self.timeRemaining = newtask.getPages() * 60 /self.pagerate
+        self.remaining_time = newtask.getPages() * (60 / self.printing_rate)
 
 class Task:
-
-    def __init__(self,time):
-        self.timestamp = time
-        self.pages = random.randrange(1,21)
+    def __init__(self, time, pages):
+        self.arrived_at = time
+        self.no_of_pages = pages
 
     def getPages(self):
-        return self.pages
+        return self.no_of_pages
 
-    def getStamp(self):
-        return self.timestamp
+    def waitingTime(self, current_time):
+        return current_time - self.arrived_at
 
-    def waitTime(self,currenttime):
-        return currenttime - self.timestamp
+
+def simulation(seconds, pagesPerMinute):
+    waiting_time = []
+    tasks_queue = Queue()
+    printer_operation = Printer(pagesPerMinute)
+
+    for second in range(seconds):
+
+        if newPrintTask():
+            pages = random.randrange(1,20)
+            new_task = Task(second,pages)
+            tasks_queue.enqueue(new_task)
+
+        if (not printer_operation.isBusy() and not tasks_queue.isEmpty()):
+            task = tasks_queue.dequeue()
+            printer_operation.startNewTask(task)
+
+            waiting_time.append(task.waitingTime(second))
+
+        printer_operation.tick()
+
+    averageWait = sum(waiting_time) / len(waiting_time)
+    print("Average Wait %6.2f secs %3d tasks remaining." % (averageWait, tasks_queue.size()))
 
 def newPrintTask():
-    num = random.randrange(1,181)
+    num = random.randrange(1, 181)
     if num == 180:
         return True
     else:
         return False
 
-
-
-def simulation(numSeconds, pagesPerMinute):
-
-    labprinter = Printer(pagesPerMinute)
-    printQueue = Queue()
-    waitingtimes = []
-
-    for currentSecond in range(numSeconds):
-
-        if newPrintTask():
-            task = Task(currentSecond)
-            printQueue.enqueue(task)
-
-        if (not labprinter.busy()) and (not printQueue.isEmpty()):
-            nexttask = printQueue.dequeue()
-            waitingtimes.append(nexttask.waitTime(currentSecond))
-            labprinter.startNext(nexttask)
-
-        labprinter.tick()
-    averageWait = sum(waitingtimes) / len(waitingtimes)
-    print("Average Wait %6.2f secs %3d tasks remaining." % (averageWait, printQueue.size()))
-
 for i in range(10):
     simulation(3600,5)
-
-
