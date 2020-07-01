@@ -2,27 +2,35 @@
 
 import sys
 
-def dfs(adj, used, order, x):
+def dfs(adj, visited, order, current):
     #write your code here
-    pass
+    visited.add(current)
+    for neighbour in adj[current]:
+        if neighbour not in visited:
+            dfs(adj, visited, order, neighbour)
+
+    order.append(current)
 
 
 def toposort(adj):
-    used = [0] * len(adj)
+    visited = set()
     order = []
     #write your code here
+    for current in range(len(adj)):
+        if current not in visited:
+            dfs(adj, visited, order, current)
+
     return order
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
-    n, m = data[0:2]
-    data = data[2:]
-    edges = list(zip(data[0:(2 * m):2], data[1:(2 * m):2]))
+    n, m = map(int, input().split())
     adj = [[] for _ in range(n)]
-    for (a, b) in edges:
+    for i in range(m):
+        a, b = map(int, input().split())
         adj[a - 1].append(b - 1)
     order = toposort(adj)
-    for x in order:
+    #print(order)
+    for i in range(len(order)):
+        x = order.pop()
         print(x + 1, end=' ')
 

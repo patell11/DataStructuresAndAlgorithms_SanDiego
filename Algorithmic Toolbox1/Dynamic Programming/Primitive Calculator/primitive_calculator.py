@@ -25,7 +25,7 @@ def min_ops(n):
 '''
 This function back track the list from the above function that has the number of operations for a given number - n.
 It scans the list and reduces the value by -1, /3, /2
-The key thing to note here is that if n is divisible is by only or by only 3, in that case choose the n value comparing the minimum operations
+The key thing to note here is that if n is divisible is by only 2 or by only 3, in that case choose the n value comparing the minimum operations
 between n-1 and n//2 or (n//3)
 '''
 

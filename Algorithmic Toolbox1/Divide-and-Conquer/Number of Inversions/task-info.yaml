@@ -7,15 +7,15 @@ files:
   visible: true
   placeholders:
   - offset: 283
-    length: 9
+    length: 10
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 283
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 814
+  - offset: 821
     length: 9
     placeholder_text: type here
     initial_state:
@@ -85,14 +85,14 @@ files:
 - name: number_of_inversions.py
   visible: true
   placeholders:
-  - offset: 285
-    length: 9
+  - offset: 299
+    length: 0
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 285
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3

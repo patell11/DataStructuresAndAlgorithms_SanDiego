@@ -65,29 +65,28 @@ def largest_number(numbers):
                 max_salary_lst = swap(max_salary_lst, l, l+1)
             l -= 1
 
-    return (lst_to_int(max_salary_lst))
+    return  max_salary_lst #(lst_to_int(max_salary_lst))
 
 
 #print(largest_number_naive([15,23,99,9,6]))
 #print(largest_number([15,23,99,9,6]))
 
 
-if __name__ == '__main__':
-    n = int(input())
-    input_numbers = input().split()
-    assert len(input_numbers) == n
-    print(largest_number(input_numbers))
+# if __name__ == '__main__':
+#     n = int(input())
+#     input_numbers = input().split()
+#     assert len(input_numbers) == n
+#     print(largest_number(input_numbers))
 
-# for numbers in [
-#     [1],
-#     [1, 2],
-#
-#     [1, 12],
-#     [2, 12],
-#     [2, 21],
-#     [2, 21, 23, 211, 213, 231, 232]
-# ]:
-#     print(largest_number(numbers),
-#                      largest_number_naive(numbers))
-#
-#
+for numbers in [
+    [1],
+    [1, 2],
+
+    [1, 12],
+    [2, 12],
+    [2, 21],
+    [2, 21, 23, 211, 213, 231, 232]
+]:
+    print(largest_number(numbers),
+                     largest_number_naive(numbers))
+

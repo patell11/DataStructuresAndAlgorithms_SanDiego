@@ -1,19 +1,19 @@
 
 def binarySearch(lst, item):
-    first = 0
-    last = len(lst)-1
-    found = False
-    while first <= last and not found:
-        midpoint = (first + last)//2
-        if lst[midpoint] == item:
-            found = True
-        else:
-            if lst[midpoint] < item:
-                first = midpoint + 1
-            else:
-                last = midpoint - 1
-    return found
+    start = 0
+    end = len(lst)
 
+    while start <= end:
+        mid = (start + end)//2
+        if lst[mid] == item:
+            return True
+        else:
+            if lst[mid] > item:
+                end = mid - 1
+            else:
+                start = mid + 1
+    return False
+#
 # testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
 # print(binarySearch(testlist, 3))
 # print(binarySearch(testlist, 13))
@@ -27,12 +27,12 @@ def binarySearchRec(lst, item):
         mid = len(lst)//2
         if lst[mid] == item:
             return True
+        elif lst[mid] > item:
+            return binarySearchRec(lst[:mid], item)
         else:
-            if item < lst[mid]:
-                return binarySearchRec(lst[:mid],item)
-            else:
-                return binarySearchRec(lst[mid+1:], item)
+            return binarySearchRec(lst[mid+1:], item)
+
 
 testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
 print(binarySearchRec(testlist, 3))
-print(binarySearchRec(testlist, 10))
+print(binarySearchRec(testlist, 13))
