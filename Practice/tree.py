@@ -1,46 +1,47 @@
 
 class BinaryTree:
-    def __init__(self, value):
-        self.key = value
-        self.leftChild = None
-        self.rightChild = None
+    def __init__(self, val):
+        self.key = val
+        self.leftchild = None
+        self.rightchild = None
 
-    def insertLeft(self, value):
-        if self.leftChild == None:
-            self.leftChild = BinaryTree(value)
+    def insertLeft(self, val):
+        if self.leftchild == None:
+            self.leftchild = BinaryTree(val)
         else:
-            tmp = BinaryTree(value)
-            tmp.leftChild = self.leftChild
-            self.leftChild = tmp
+            t = BinaryTree(val)
+            t.leftchild = self.leftchild
+            self.leftchild = t
 
-    def insertRight(self,value):
-        if self.rightChild == None:
-            self.rightChild = BinaryTree(value)
+    def insertRight(self, val):
+        if self.rightchild == None:
+            self.rightchild = BinaryTree(val)
         else:
-            tmp = BinaryTree(value)
-            tmp.rightChild = self.rightChild
-            self.rightChild = tmp
+            t = BinaryTree(val)
+            t.rightchild = self.rightchild
+            self.rightchild = t
 
     def getRightChild(self):
-        return self.rightChild
+        return self.rightchild
 
     def getLeftChild(self):
-        return self.leftChild
+        return self.leftchild
 
-    def getKey(self):
+    def setRootVal(self, val):
+        self.key = val
+
+    def getRootVal(self):
         return self.key
 
-    def setRootVal(self, value):
-        self.key = value
 
-r = BinaryTree(None)
-#print(r.getKey())
+r = BinaryTree('a')
+print(r.getRootVal())
 print(r.getLeftChild())
 r.insertLeft('b')
 print(r.getLeftChild())
-print(r.getLeftChild().getKey())
+print(r.getLeftChild().getRootVal())
 r.insertRight('c')
 print(r.getRightChild())
-print(r.getRightChild().getKey())
+print(r.getRightChild().getRootVal())
 r.getRightChild().setRootVal('hello')
-print(r.getRightChild().getKey())
+print(r.getRightChild().getRootVal())

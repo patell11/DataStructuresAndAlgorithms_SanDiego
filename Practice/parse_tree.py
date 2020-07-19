@@ -1,51 +1,49 @@
 from tree import BinaryTree
 from stack import Stack
+import operator
 
 def buildParseTree(exp):
-
-    exp = exp.split()
-    tree = BinaryTree("")
+    exp_lst = exp.split()
+    root_node = BinaryTree(" ")
+    current_node = root_node
     parent_stack = Stack()
-    parent_stack.push(tree)
-    current_node = tree
+    parent_stack.push(root_node)
 
-    for i in exp:
-        if i == '(':
-            current_node.insertLeft("")
+
+    for e in exp_lst:
+        if e in ['(']:
+            current_node.insertLeft(' ')
             parent_stack.push(current_node)
             current_node = current_node.getLeftChild()
-
-        elif i in ['*', '/', '+', '-']:
-            current_node.setRootVal(i)
-            current_node.insertRight("")
+        elif e in ['+','-','*','/']:
+            current_node.setRootVal(e)
+            current_node.insertRight(' ')
             parent_stack.push(current_node)
             current_node = current_node.getRightChild()
-
-        elif i == ')':
+        elif e in [')']:
             current_node = parent_stack.pop()
 
-        elif i not in [')', '*', '+', '/', '-', '(']:
-            current_node.setRootVal(i)
-            parent = parent_stack.pop()
-            current_node = parent
+        elif e not in ['+','-','*','/','(',')']:
+            try:
+                current_node.setRootVal(int(e))
+                current_node = parent_stack.pop()
+            except ValueError:
+                raise ValueError("token '{}' is not a valid number".format(e))
 
-        #print(parent_stack.size())
-
-    return tree
-
-
+    return current_node
 
 def postorder(tree):
     if tree != None:
         postorder(tree.getLeftChild())
         postorder(tree.getRightChild())
-        print(tree.getKey())
+        print(tree.getRootVal())
+
 
 def printExp(tree):
     exp = ""
     if tree:
         """
-            if the left and right of the tree does not exit we use the extra condition to avoid the extra brackets around
+            if the left and right of the tree does not exist we use the extra condition to avoid the extra brackets around
             operands
         """
         if tree.getLeftChild():
@@ -53,7 +51,7 @@ def printExp(tree):
         else:
             exp = printExp(tree.getLeftChild())
 
-        exp = exp + str(tree.getKey())
+        exp = exp + str(tree.getRootVal())
 
         if tree.getRightChild():
             exp = exp + printExp(tree.getRightChild()) + ')'
@@ -62,22 +60,33 @@ def printExp(tree):
 
     return exp
 
-import operator
-def evaluate(tree):
+
+# def evaluate(tree):
+#     opers = {'+': operator.add, '-': operator.sub, '/': operator.truediv, '*': operator.mul}
+#     leftChild = tree.getLeftChild()
+#     rightChild = tree.getRightChild()
+#
+#     if leftChild and rightChild:
+#         fn = opers[tree.getKey()]
+#         return fn(evaluate(leftChild), evaluate(rightChild))
+#     else:
+#         return int(tree.getKey())
+
+
+def evaluate2(tree):
     opers = {'+': operator.add, '-': operator.sub, '/': operator.truediv, '*': operator.mul}
     leftChild = tree.getLeftChild()
     rightChild = tree.getRightChild()
 
-    if leftChild and rightChild:
-        fn = opers[tree.getKey()]
-        return fn(evaluate(leftChild), evaluate(rightChild))
-    else:
-        return int(tree.getKey())
+    if leftChild == None and rightChild == None:
+        return int(tree.getRootVal())
 
+    fn = opers[tree.getRootVal()]
+    return fn(evaluate2(leftChild), evaluate2(rightChild))
 
 
 pt = buildParseTree("( 3 + ( 4 * 5 ) )")     #("( ( 10 + 5 ) * 3 )")   #
 postorder(pt)
 print("------>")
 print(printExp(pt))
-print(evaluate(pt))
+print(evaluate2(pt))
