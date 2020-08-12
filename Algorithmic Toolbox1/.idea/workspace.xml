@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa44d1dc-6348-4745-a1a9-7eb6e6fbcbd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/disjoint_set2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/disjoint_set2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/parse_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/parse_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practice/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/week5_mst/1_connecting_points/connecting_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/week5_mst/1_connecting_points/connecting_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice/binary_heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/binary_heap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="$PROJECT_DIR$/Priority Queue/Merging Tables" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.number_of_inversions">
+  <component name="RunManager" selected="Python.negative_cycle">
     <configuration name="clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +88,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="negative_cycle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithmic Toolbox1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs/week4_paths2/2_negative_cycle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/week4_paths2/2_negative_cycle/negative_cycle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="number_of_inversions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,27 +122,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Divide-and-Conquer/Number of Inversions/number_of_inversions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="shortest_paths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithmic Toolbox1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs/week4_paths2/3_shortest_paths" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/week4_paths2/3_shortest_paths/shortest_paths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.negative_cycle" />
         <item itemvalue="Python.number_of_inversions" />
         <item itemvalue="Python tests.Unittests for number_of_inversions_unit_tests.TestNumberOfInversions" />
         <item itemvalue="Python.clustering" />
         <item itemvalue="Python.connecting_points" />
-        <item itemvalue="Python.shortest_paths" />
       </list>
     </recent_temporary>
   </component>
@@ -173,34 +172,38 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state x="447" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.820@0.0.1440.820" timestamp="1589479541832" />
-    <state width="1398" height="281" key="GridCell.Tab.0.bottom" timestamp="1592043457158">
-      <screen x="0" y="0" width="1440" height="823" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1596045750321">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1590804642409" />
+    <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.0.1440.820@0.0.1440.820" timestamp="1595955712769" />
     <state width="1398" height="281" key="GridCell.Tab.0.bottom/0.0.1440.823@0.0.1440.823" timestamp="1592043457158" />
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.826@0.0.1440.826" timestamp="1588097657209" />
     <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.0.1440.896@0.0.1440.896" timestamp="1589836168923" />
-    <state width="1398" height="281" key="GridCell.Tab.0.center" timestamp="1592043457155">
-      <screen x="0" y="0" width="1440" height="823" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1596045750321" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1596045750319">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1590804642407" />
+    <state width="1398" height="281" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.820" timestamp="1595955712767" />
     <state width="1398" height="281" key="GridCell.Tab.0.center/0.0.1440.823@0.0.1440.823" timestamp="1592043457155" />
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.826@0.0.1440.826" timestamp="1588097657206" />
     <state width="1398" height="258" key="GridCell.Tab.0.center/0.0.1440.896@0.0.1440.896" timestamp="1589836168921" />
-    <state width="1398" height="281" key="GridCell.Tab.0.left" timestamp="1592043457154">
-      <screen x="0" y="0" width="1440" height="823" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1596045750319" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1596045750318">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1590804642406" />
+    <state width="1398" height="281" key="GridCell.Tab.0.left/0.0.1440.820@0.0.1440.820" timestamp="1595955712766" />
     <state width="1398" height="281" key="GridCell.Tab.0.left/0.0.1440.823@0.0.1440.823" timestamp="1592043457154" />
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.826@0.0.1440.826" timestamp="1588097657205" />
     <state width="1398" height="258" key="GridCell.Tab.0.left/0.0.1440.896@0.0.1440.896" timestamp="1589836168919" />
-    <state width="1398" height="281" key="GridCell.Tab.0.right" timestamp="1592043457157">
-      <screen x="0" y="0" width="1440" height="823" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1596045750318" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1596045750320">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="167" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1590804642408" />
+    <state width="1398" height="281" key="GridCell.Tab.0.right/0.0.1440.820@0.0.1440.820" timestamp="1595955712768" />
     <state width="1398" height="281" key="GridCell.Tab.0.right/0.0.1440.823@0.0.1440.823" timestamp="1592043457157" />
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.826@0.0.1440.826" timestamp="1588097657208" />
     <state width="1398" height="258" key="GridCell.Tab.0.right/0.0.1440.896@0.0.1440.896" timestamp="1589836168922" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1596045750320" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1590804642178">
       <screen x="0" y="0" width="1440" height="820" />
     </state>
@@ -221,11 +224,11 @@
       <screen x="0" y="0" width="1440" height="820" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.820@0.0.1440.820" timestamp="1590721529042" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1595151352552">
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1595823397971">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.0.1440.820@0.0.1440.820" timestamp="1595127881201" />
-    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1595151352552" />
+    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.0.1440.820@0.0.1440.820" timestamp="1595216065622" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1595823397971" />
     <state x="385" y="147" width="670" height="676" key="search.everywhere.popup" timestamp="1592040388021">
       <screen x="0" y="0" width="1440" height="823" />
     </state>

@@ -28,8 +28,9 @@ def minimum_distance(points):
                 min_heap[i] = (distance, neighbour_point[1])
                 costs[neighbour_point[1]] = distance
                 #print("     costs ", costs)
-                heapq.heapify(min_heap)
+                ##heapq.heapify(min_heap)               # Not required to heapify here
                 #print("     min heap ", min_heap)
+        heapq.heapify(min_heap)
     return sum(costs)
 
 

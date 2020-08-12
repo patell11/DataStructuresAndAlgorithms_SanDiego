@@ -40,6 +40,14 @@ class BinaryHeap:
         self.shiftDown(0)
         return min
 
+    def inplace_sort(self):
+        while self.size > 0:
+            self.heaplist[0],self.heaplist[self.size-1] = self.heaplist[self.size-1], self.heaplist[0]
+            self.size = self.size -1
+            self.shiftDown(0)
+        return self.heaplist
+
+
     def remove(self, index):
         self.heaplist[index] = float('-inf')
         self.shiftUp(index)
@@ -54,13 +62,16 @@ class BinaryHeap:
             self.shiftDown(i)
             i = i-1
 
+    def setHeapList(self, alist):
+        self.heaplist = alist
+
     def getHeap(self):
         return self.heaplist
-
-bh = BinaryHeap()
-bh.buildHeap([9,5,6,2,3])
-
-print(bh.getHeap())
+#
+# bh = BinaryHeap()
+# bh.buildHeap([9,5,6,2,3])
+#
+# print(bh.getHeap())
 # print(bh.extractMin())
 # print(bh.extractMin())
 # print(bh.extractMin())
